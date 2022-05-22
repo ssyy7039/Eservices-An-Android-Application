@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Eservices/app/src/main/res/drawable-v24/ic_image_black_24dp.xml" value="0.2265" />
+        <entry key="..\:/Eservices/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2265" />
+        <entry key="..\:/Eservices/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2265" />
+        <entry key="..\:/Eservices/app/src/main/res/layout/activity_adduser.xml" value="0.176" />
+        <entry key="..\:/Eservices/app/src/main/res/layout/activity_admin_allorder.xml" value="0.22826086956521738" />
+        <entry key="..\:/Eservices/app/src/main/res/layout/activity_admin_bookingdetails.xml" value="0.22826086956521738" />
+        <entry key="..\:/Eservices/app/src/main/res/layout/activity_adminuserdetails.xml" value="0.22826086956521738" />
+        <entry key="..\:/Eservices/app/src/main/res/layout/activity_all_bookings.xml" value="0.22826086956521738" />
+        <entry key="..\:/Eservices/app/src/main/res/layout/activity_booking_details.xml" value="0.22826086956521738" />
+        <entry key="..\:/Eservices/app/src/main/res/layout/activity_bookuser.xml" value="0.22826086956521738" />
+        <entry key="..\:/Eservices/app/src/main/res/layout/activity_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/Eservices/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Eservices/app/src/main/res/layout/activity_otp.xml" value="0.25" />
+        <entry key="..\:/Eservices/app/src/main/res/layout/activity_profile.xml" value="0.22826086956521738" />
+        <entry key="..\:/Eservices/app/src/main/res/layout/activity_register.xml" value="0.22826086956521738" />
+        <entry key="..\:/Eservices/app/src/main/res/layout/activity_splash.xml" value="0.22826086956521738" />
+        <entry key="..\:/Eservices/app/src/main/res/layout/activity_updateuser.xml" value="0.22826086956521738" />
+        <entry key="..\:/Eservices/app/src/main/res/layout/activity_userdetails.xml" value="0.22826086956521738" />
+        <entry key="..\:/Eservices/app/src/main/res/layout/cardbook.xml" value="0.22826086956521738" />
+        <entry key="..\:/Eservices/app/src/main/res/layout/carduser.xml" value="0.22826086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

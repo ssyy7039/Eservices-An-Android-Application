@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:id="@+id/Bookuser"
+    tools:context=".Bookuser">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booking Form"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_weight="1"
+        android:layout_marginTop="30dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:textStyle="bold|italic" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/calender1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/flag_transparent"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_date_range_24" />
+        <TextView
+            android:id="@+id/date1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="select your start date."
+            android:layout_gravity="center"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginRight="40dp"
+            android:textSize="23dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="To"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_weight="1"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/calender2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/flag_transparent"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_date_range_24" />
+        <TextView
+            android:id="@+id/date2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="select your End date."
+            android:layout_gravity="center"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:layout_marginRight="40dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="If your are booking for only one day then please select the both date as same."
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:layout_weight="1"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/name2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="enter your name."
+        android:layout_weight="1"
+        android:textColorHint="#000000"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/contact2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="enter your contactno."
+        android:layout_weight="1"
+        android:textColorHint="#000000"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/address2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:hint="Enter your address\n\n"
+        android:textColorHint="#000000"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/cbook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#000000"
+        android:text="confirm booking"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+
+</LinearLayout>
